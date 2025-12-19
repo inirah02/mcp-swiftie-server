@@ -9,7 +9,6 @@ import (
 	"github.com/gorilla/websocket"
 )
 
-// Copy the types here
 type MCPRequest struct {
 	JSONRPC string          `json:"jsonrpc"`
 	ID      string          `json:"id"`
@@ -43,7 +42,7 @@ func main() {
 	}
 	defer conn.Close()
 
-	log.Println("🎤 Connected to MCP Swiftie Server")
+	log.Println("Connected to MCP Swiftie Server")
 
 	// Read server info
 	var serverInfo MCPResponse
@@ -53,7 +52,7 @@ func main() {
 	log.Printf("Server info: %+v\n", serverInfo.Result)
 
 	// List tools
-	log.Println("\n📋 Listing available tools...")
+	log.Println("\n Listing available tools...")
 	listToolsReq := MCPRequest{
 		JSONRPC: "2.0",
 		ID:      uuid.New().String(),
@@ -78,7 +77,7 @@ func main() {
 	}
 
 	// Query albums
-	log.Println("\n🎸 Querying Taylor Swift albums...")
+	log.Println("\n Querying Taylor Swift albums...")
 	queryReq := MCPRequest{
 		JSONRPC: "2.0",
 		ID:      uuid.New().String(),
