@@ -432,6 +432,7 @@ queriesExecuted.Add(1)  // Concurrent-safe, no mutex
 
 It's in theme with SwiftieinTech, which is a cross-platform community at the intersection of technology, creativity, and culture. What I began as a newsletter has grown into a global space for learning, mentorship, and conversation. It champions technical depth while making room for storytelling, curiosity, and joy. By decentering gatekeeping and “cringe,” SwiftieinTech creates access, builds confidence, and reflects the evolving ways people grow, build, and belong in tech today.   
 [**Subscribe to the newsletter** ](https://www.linkedin.com/newsletters/swiftieintech-7271142545974272000)
+&
 [**Check it out on Instagram**](https://www.instagram.com/swiftieintech/)
 
 
